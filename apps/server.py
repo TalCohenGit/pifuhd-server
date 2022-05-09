@@ -6,8 +6,6 @@ from flask_restful import Resource, request, Api, reqparse
 app = Flask(__name__)
 api = Api(app)
 
-# PATH_TEST_IMAGE = "C:/Users/Shachar/Desktop/Projects/hdProject/pifuhd/sample_images"
-# PATH_OBJ_FILE = "C:/Users/Shachar/Desktop/Projects/hdProject/pifuhd/results/pifuhd_final/recon/result_test_512.obj"
 ALLOWED_EXTENSIONS = set(['png', 'jpg'])
 
 def allowed_file(filename):
